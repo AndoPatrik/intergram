@@ -31,7 +31,7 @@ function getUrlParameter(name) {
 
 function getUserId () {
     if (store.enabled) {
-        return store.get('userId') || store.set('userId', generateRandomId());
+        return store.get('userId') || store.set('userId', 'TestName'+ generateRandomId());
     } else {
         return generateRandomId();
     }
