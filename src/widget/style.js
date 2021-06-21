@@ -4,10 +4,10 @@ export const desktopWrapperStyle = {
     bottom: '20px',
     right: '20px',
     zIndex: 2147483647,
-    borderRadius: '10px',
+    borderRadius: '0.25rem',
     background: 'rgb(229, 229, 229)',
     boxSizing: 'content-box',
-    boxShadow: '0px 0px 30px rgba(0, 0, 0, 0.5)',
+    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
     overflow: 'hidden'
 };
 
@@ -51,10 +51,11 @@ export const desktopTitleStyle = {
     lineHeight: '30px',
     fontSize: '20px',
     display: 'flex',
+    borderRadius: '0.25rem',
     justifyContent: 'space-between',
-    padding: '5px 0 5px 20px',
+    padding: '3px 10px 0px 10px',
     fontFamily: 'Lato, sans-serif',
-    color: '#fff',
+    color: 'gray',
     cursor: 'pointer',
 };
 
