@@ -52,7 +52,7 @@ export default class Widget extends Component {
                     :
 
                     (conf.closedStyle === 'chat' || isChatOpen || this.wasChatOpened()) ?
-                        <div style={{background: conf.mainColor, ...desktopTitleStyle}} onClick={this.onClick}>
+                        <div id="r4m_bot" style={{background: conf.mainColor, ...desktopTitleStyle}} onClick={this.onClick}>
                             <div style={{display: 'flex', alignItems: 'center', padding: '0px 0px 0px 0px'}}>
                                 {isChatOpen ? conf.titleOpen : conf.titleClosed}
                             </div>
